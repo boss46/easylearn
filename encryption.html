@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Encryption</title>
+    <meta name="description" content="A description of your website">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        function cc() { document.getElementById("common").innerHTML = '<object type="text/html" data="CaeserCipher.html" width="700px" height="700px"></object>'; }
+        function vr() { document.getElementById("common").innerHTML = '<object type="text/html" data="VernamCipher.html" width="700px" height="700px"></object>'; }
+        function vg() { document.getElementById("common").innerHTML = '<object type="text/html" data="VigenerCipher.html" width="700px" height="700px"></object>'; }
+        function rc() { document.getElementById("common").innerHTML = '<object type="text/html" data="RailfenceCipher.html" width="700px" height="700px"></object>'; }
+        function pc() { document.getElementById("common").innerHTML = '<object type="text/html" data="PlayfairCipher.html" width="700px" height="700px"></object>'; }
+    </script>
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+
+            <div class="top_banner">
+                <h1>algorithms</h1>
+                <p>Must be seen to be believed</p>
+            </div>
+
+        </div>
+
+        <div id="page_content">
+
+            <!--Template designed by--><a href="http://www.htmltemplates.net"><img src="images/copyright.gif" class="copyright" alt="http://www.htmltemplates.net"></a>
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sorting.html">Sorting</a></li>
+                    <li><a href="searching.html">Searching</a></li>
+                    <li><a href="graph.html">Graph</a></li>
+                    <li><a href="encryption.html">Encryption</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="extra.html">Extra</a></li>
+                </ul>
+            </div>
+
+            <div class="left_side_bar">
+
+                <div class="col_1">
+                    <h1>Main Menu</h1>
+                    <div class="box">
+                        <ul>
+                            <li><a href="#" onclick="cc()">Caeser Cipher</a></li>
+                            <li><a href="#" onclick="vr()">Vernam Cipher</a></li>
+                            <li><a href="#" onclick="vg()">Vigener Cipher</a></li>
+                            <li><a href="#" onclick="rc()">Railfence Cipher</a></li>
+                            <li><a href="#" onclick="pc()">Playfair Cipher</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col_1">
+                    <h1>Block</h1>
+                    <div class="box">
+                        <p>Enter Block content here...</p>
+                        <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right_section">
+                <div class="common_content" id="common">
+                    <h2>Cryptography</h2>
+                    <hr>
+                    <p>
+                        Cryptology is the study of secret writing. Governments, the military, and people
+                        in business have desired to keep their communications secret ever since the
+                        invention of writing. Spies, lovers, and diplomats all have secrets and are desperate
+                        to keep them as such. There are typically two ways of keeping secrets in communications.
+                        Steganography hides the very existence of the message. Secret ink,
+                        microdots, and using different fonts on printed pages are all ways of hiding the
+                        message from prying eyes. Cryptology, on the other hand, makes absolutely no
+                        effort to hide the presence of the secret message. Instead it transforms the message
+                        into something unintelligible so that if the enemy intercepts the message they
+                        will have no hope of reading it.
+                    </p>
+                    <br>
+                    <p><a href="#">Read more</a></p>
+                    <hr>
+                    <p>
+                        A cryptologic system performs a transformation
+                        on a message—called the plaintext. The transformation renders the plaintext unintelligible
+                        and produces a new version of the message—the ciphertext. This process
+                        is encoding or enciphering the plaintext. A message in ciphertext is typically
+                        called a cryptogram. To reverse the process the system performs an inverse transformation
+                        to recover the plaintext. This is known as decoding or decrypting the
+                        ciphertext.
+                    </p><br>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <!--start footer from here-->
+            <div id="footer">
+                Copyright &copy; 2014. Design by <a href="http://www.htmltemplates.net" target="_blank">htmltemplates.net</a><br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

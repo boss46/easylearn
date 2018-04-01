@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Searching</title>
+    <meta name="description" content="A description of your website">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        function ls() { document.getElementById("common").innerHTML = '<object type="text/html" data="LinearSearch.html" width="700px" height="700px"></object>'; }
+        function bs() { document.getElementById("common").innerHTML = '<object type="text/html" data="BinarySearch.html" width="700px" height="700px"></object>'; }
+        function js() { document.getElementById("common").innerHTML = '<object type="text/html" data="JumpSearch.html" width="700px" height="700px"></object>'; }
+    </script>
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+
+            <div class="top_banner">
+                <h1>algorithms</h1>
+                <p>Must be seen to be believed</p>
+            </div>
+
+        </div>
+
+        <div id="page_content">
+
+            <!--Template designed by--><a href="http://www.htmltemplates.net"><img src="images/copyright.gif" class="copyright" alt="http://www.htmltemplates.net"></a>
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sorting.html">Sorting</a></li>
+                    <li><a href="searching.html">Searching</a></li>
+                    <li><a href="graph.html">Graph</a></li>
+                    <li><a href="encryption.html">Encryption</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="#">Extra</a></li>
+                </ul>
+            </div>
+
+            <div class="left_side_bar">
+
+                <div class="col_1">
+                    <h1>Main Menu</h1>
+                    <div class="box">
+                        <ul>
+                            <li><a href="#" onclick="ls()">Linear Search</a></li>
+                            <li><a href="#" onclick="bs()">Binary Search</a></li>
+                            <li><a href="#" onclick="js()">Jump Search</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col_1">
+                    <h1>Block</h1>
+                    <div class="box">
+                        <p>Enter Block content here...</p>
+                        <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right_section">
+                <div class="common_content" id="common">
+                    <h2>Gallery</h2>
+                    <hr>
+                    <p>
+                        A fundamental operation to a great many computational tasks is searching:
+                        retrieving some particular piece or pieces of information from large amount of previously stored information.
+                        Normally we think of the information as divided up into records, each record having a key for use in searching.
+                        The goal of the search is to find all records with keys matching a given search key.
+                        The purpose of the search is usually to access information within the record (not merely the key) for processing.
+                    </p>
+                    <br>
+                    <p><a href="#">Read more</a></p>
+                    <hr>
+                    <p>
+                        Applications of searching are widespread, and involve a variety of different operations.
+                        For example, a bank needs to keep track of all its customers’ account balances
+                        and to search through them to check various types of transactions.
+                        An airline reservation system has similar demands, in some ways, but most of the data is rather short-lived.
+                    </p><br>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <!--start footer from here-->
+            <div id="footer">
+                Copyright &copy; 2014. Design by <a href="http://www.htmltemplates.net" target="_blank">htmltemplates.net</a><br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting</title>
+    <meta name="description" content="A description of your website">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        function bs() { document.getElementById("common").innerHTML = '<object type="text/html" data="BubbleSort.html" width="700px" height="700px"></object>'; }
+        function ss() { document.getElementById("common").innerHTML = '<object type="text/html" data="SelectionSort.html" width="700px" height="700px"></object>'; }
+        function is() { document.getElementById("common").innerHTML = '<object type="text/html" data="InsertionSort.html" width="700px" height="700px"></object>'; }
+        function rs() { document.getElementById("common").innerHTML = '<object type="text/html" data="RadixSort.html" width="700px" height="700px"></object>'; }
+    </script>
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+
+            <div class="top_banner">
+                <h1>algorithms</h1>
+                <p>Must be seen to be believed</p>
+            </div>
+
+        </div>
+
+        <div id="page_content">
+
+            <!--Template designed by--><a href="http://www.htmltemplates.net"><img src="images/copyright.gif" class="copyright" alt="http://www.htmltemplates.net"></a>
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sorting.html">Sorting</a></li>
+                    <li><a href="searching.html">Searching</a></li>
+                    <li><a href="graph.html">Graph</a></li>
+                    <li><a href="encryption.html">Encryption</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="#">Extra</a></li>
+                </ul>
+            </div>
+
+            <div class="left_side_bar">
+
+                <div class="col_1">
+                    <h1>Main Menu</h1>
+                    <div class="box">
+                        <ul>
+                            <li><a href="#" onclick="bs()">Bubble Sort</a></li>
+                            <li><a href="#" onclick="ss()">Selection Sort</a></li>
+                            <li><a href="#" onclick="is()">Insertion Sort</a></li>
+                            <li><a href="#" onclick="rs()">Radix Sort</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col_1">
+                    <h1>Block</h1>
+                    <div class="box">
+                        <p>Enter Block content here...</p>
+                        <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right_section">
+                <div class="common_content" id="common">
+                    <h2>Sorting</h2>
+                    <hr>
+                    <p>
+                        Sorting is nothing but storage of data in sorted order, it can be in ascending or descending order.
+                        The term sorting comes into picture with the term Searching.
+                        There are so many things in our real life that we need to search, like a particular record in database, roll numbers in merit list,
+                        a particular telephone number, any particular page in a book etc.<br />
+                        Sorting arranges data in a sequence which makes searching easier.
+                        Every record which is going to be sorted will contain one key. Based on the key the record will be sorted.
+                    </p>
+                    <br>
+                    <p><a href="#">Read more</a></p>
+                    <hr>
+                    <p>
+                        There are many techniques for sorting.
+                        Implementation of particular sorting technique depends upon situation.
+                        Sorting techniques mainly depends on two parameters. First parameter is the execution time of program,
+                        which means time taken for execution of program.
+                        Second is the space, which means space taken by the program.
+                    </p><br>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <!--start footer from here-->
+            <div id="footer">
+                Copyright &copy; 2018. Design by <a href="#" target="_blank">htmltemplates.net</a><br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
